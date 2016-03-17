@@ -28,7 +28,8 @@ defmodule MixUtensilTest.Mixfile do
   # Type "mix help deps" for more examples and options
   defp deps do
     [
-      {:comeonin, "~> 2.1"}
+      {:mix_utensil, path: "path/to/local/mix_utensil"},
+#      {:comeonin, "~> 2.1"}
     ]
   end
 end
